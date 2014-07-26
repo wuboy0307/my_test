@@ -1,4 +1,5 @@
 ActiveAdmin.register Product do
+  permit_params :name, :show_in_home, :price, :description
 
   
   # See permitted parameters documentation:
